@@ -1,5 +1,7 @@
 void explainpair(){
-    // Pair is a container that holds two values of different data types. It is defined in the <utility> header file. The pair class is a part of the Standard Template Library (STL) in C++. It is used to store a tuple. The pair class has two public data members, first and second, which hold the first and second values of the pair, respectively.
+    /* Pair is a container that holds two values of different data types. It is defined in the <utility> header file. The pair class is a part of the Standard Template 
+    Library (STL) in C++. It is used to store a tuple. The pair class has two public data members, first and second, which hold the first and second values of the pair, 
+    respectively.*/
     pair<int, int> p = {1, 3};
     cout << p.first << " " << p.second << endl; // Output: 1 3
 
